@@ -49,6 +49,7 @@ To make a new site under DNS based multitenancy, perform the following steps.
 * Create a new site
 
 	`bench new-site site2name`
+	(Note : For production setup, the domain you've pointed at the server should be the same as the site2name)
 
 * Re generate nginx config
 
